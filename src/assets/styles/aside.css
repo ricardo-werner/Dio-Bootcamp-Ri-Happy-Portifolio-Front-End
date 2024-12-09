@@ -19,45 +19,24 @@
 
 .pf-wrapper .pf-left-collumn .pf-navigator {
   position: relative;
-  height: 80vh;
+  height: 100%;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   margin-left: 5rem;
 }
 
-.pf-wrapper .pf-left-collumn .pf-navigator::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  width: 0.2rem;
-  height: 100%;
-  background-color: var(--color-white);
-  z-index: 0;
-}
-
-.pf-wrapper .pf-left-collumn .pf-navigator ul {
-  z-index: 1;
-}
-
 .pf-wrapper .pf-left-collumn .pf-navigator ul li {
   display: flex;
-  justify-content: center;
   align-items: center;
   margin: 5rem 0;
-  width: 3.8rem;
-  height: 3.8rem;
-  border: 0.1rem solid var(--color-white);
-  border-radius: 50%;
-  background-color: var(--color-black);
   font: var(--text-regular);
   color: var(--color-white);
   cursor: pointer;
 }
 
 .pf-wrapper .pf-left-collumn .pf-navigator ul li:hover {
-  background-color: var(--color-white);
   color: var(--color-black);
 }
 
@@ -75,9 +54,4 @@
 }
 .pf-wrapper .pf-left-collumn .pf-navigator ul li:last-child {
   margin-bottom: 0;
-}
-
-.pf-wrapper .pf-navigator .pf-navigator__icon {
-  position: absolute;
-  top: -2rem;
 }
