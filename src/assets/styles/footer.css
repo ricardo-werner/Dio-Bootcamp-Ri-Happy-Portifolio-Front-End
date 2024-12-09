@@ -1,23 +1,18 @@
-.footer {
-  background-color: rgba(0, 0, 0, 0.8);
-  text-align: center;
-  padding: 1rem;
-  margin-top: auto;
+.footer-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 85px;
+  font-weight: bold;
+  gap: 2rem;
 }
 
-.footer p {
+.footer-main p {
   color: #f0a04b;
   font-size: 0.9rem;
 }
 
-.footer-main {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 85px;
-  font-weight: bold;
-}
-
 .redes {
-  margin-left: 2rem;
+  display: flex;
+  gap: 1rem;
 }
