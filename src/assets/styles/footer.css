@@ -2,14 +2,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 85px;
-  font-weight: bold;
+  width: 100%;
+  height: 8rem;
   gap: 2rem;
 }
 
 .footer-main p {
+  position: static;
   color: #f0a04b;
-  font-size: 0.9rem;
+  font: var(--text-h3);
 }
 
 .redes {
