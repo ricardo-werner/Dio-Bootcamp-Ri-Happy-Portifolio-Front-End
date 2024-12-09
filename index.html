@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Front-End</title>
+
+  <link rel="stylesheet" href="./src/assets/styles/index.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <aside class="aside">
+    <h2>Aside Section</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </aside>
+
+  <main class="main">
+    <section>
+      <h1>Lorem Ipsum</h1>
+      <p>Explore modern designs with vibrant colors.</p>
+    </section>
+  </main>
+
+  <footer class="footer-main">
+      <p class="copyright" id="footer-content">
+        &copy; Copyright&nbsp;&nbsp;Ricardo Werner - Dev em Desenvolvimento&nbsp;&nbsp;</p>
+      <script>
+        const date = new Date();
+        document.getElementById('footer-content').innerHTML += date.getFullYear();
+      </script>
+
+      <p class="redes">
+        Rede para contatos
+      </p>
+
+      <a href="https://www.linkedin.com/in/ricardo-werner" target="_blank" class="linkedin">
+        <img src="./src/assets/icon/linkedin.png" alt="Linkedin">
+      </a>
+
+      <a href="https://www.github.com/ricardo-werner" target="_blank" class="github">
+        <img src="./src/assets/icon/github.png" alt="Github">
+    </footer>
+</body>
+</html>
