@@ -22,3 +22,9 @@
 .nav a:hover {
   color: #fff;
 }
+
+
+.header {
+  background-color: rgba(0, 0, 0, 0.8); /* Fundo semi-transparente */
+  padding: 1rem;
+}
