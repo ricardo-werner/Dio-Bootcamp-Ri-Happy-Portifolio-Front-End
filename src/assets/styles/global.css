@@ -25,8 +25,8 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: url('../images/portfolio2.jpg') no-repeat center center fixed; /* Adiciona a imagem de fundo */
-  background-size: cover; /* Garante que a imagem ocupe todo o espaço */
+  background: url('../images/portfolio2.jpg') no-repeat center center fixed;
+  background-size: cover;
   color: #fff;
   line-height: 1.6;
   font-size: 16px;
